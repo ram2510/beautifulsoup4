@@ -18,3 +18,14 @@ You can download beautifulsoup 4 from the command prompt using the command *pip3
 
 To download BeautifulSoup4:-https://pypi.org/project/beautifulsoup4/#files
 
+## PROJECTS
+My projects using bs4
+
+### Web scrapper
+
+I created a basic web scrapping program that parses through a wikipedia Asian countries page and displays all the Asian countries in a table using the pandas library
+To view the source code I would suggest you to view it using jupyter notebook
+
+### Video scarapper
+
+I created a program which asks for you the keywords that you type in the the YouTube search bar this program will display the results and then you have to enter the title number of the video that you want to download and this program will give you the link to download that video
