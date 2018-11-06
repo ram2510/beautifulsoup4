@@ -41,3 +41,9 @@ To view the source code I would suggest you to view it using jupyter notebook
 ### Video scarapper
 
 I created a program which asks for you the keywords that you type in the the YouTube search bar this program will display the results and then you have to enter the title number of the video that you want to download and this program will give you the link to download that video
+
+
+### Wikipedia crawler
+
+If you want to search sachin tendulkar on the cricket wikipedia page but you are too lazy to write the full name so the chances are you will not get the desired webpage using other wiki crawlers
+This script takes a starting webpage name(eg = cricket) and a noun/pronoun(eg = sachin) as input it starts the starts web crawling with the title of the web page you gave as the input and crawls till you get the desired output as the noun/pronoun. It will start matching the links on the webpage using the difflib SequencMatcher module it will show you whether the links corresponds to the link or the webpage you want if found it will print the link
